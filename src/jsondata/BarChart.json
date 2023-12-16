@@ -1,0 +1,44 @@
+[
+  {
+    "name": "S1",
+    "SP Planed": 400,
+    "SP Added": 240,
+    "SP completed": 240,
+    "SP forecast": 240
+  },
+  {
+    "name": "S2",
+    "SP Planed": 300,
+    "SP Added": 139,
+    "SP completed": 221,
+    "SP forecast": 221
+  },
+  {
+    "name": "S3",
+    "SP Planed": 200,
+    "SP Added": 480,
+    "SP completed": 229,
+    "SP forecast": 229
+  },
+  {
+    "name": "S4",
+    "SP Planed": 278,
+    "SP Added": 390,
+    "SP completed": 200,
+    "SP forecast": 200
+  },
+  {
+    "name": "S5",
+    "SP Planed": 189,
+    "SP Added": 480,
+    "SP completed": 218,
+    "SP forecast": 218
+  },
+  {
+    "name": "Foecast",
+    "SP Planed": 0,
+    "SP Added": 0,
+    "SP completed": 0,
+    "SP forecast": 250
+  }
+]

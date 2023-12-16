@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+/* streamedareachart */
+.chart-container {
+  width: max-content;
+  margin: 0 auto;
+}
+.chart-padding {
+  padding: 0 30px 30px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.justify-even {
+  justify-content: space-evenly;
+}
+.justify-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.area-chart-title {
+  padding: 0 10px;
+  font-weight: 100;
+  margin-right: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+/* table  */
+.container {
+  width: 100vw;
+  height: 300px;
+  overflow-y: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  background-color: #eee;
+  border-collapse: collapse;
+}
+table thead {
+  background-color: #838383;
+  color: #fff;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+td {
+  padding: 15px;
+}
+/* card  */
+.card-background {
+  text-align: center;
+  width: max-content;
+  background-color: #eee;
+  padding: 12px;
+  margin: 30px 0;
+  font-size: small;
+  border-radius: 5px;
+}
+.card-est-date {
+  font-size: 7px;
+}
+/* spacing div */
+.spacing-div {
+  height: 50vh;
+}
+/* tooltip  */
+.tooltip-background {
+  width: 190px;
+  background-color: #eee;
+  padding: 10px;
 }

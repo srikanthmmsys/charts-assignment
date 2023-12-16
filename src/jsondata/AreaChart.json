@@ -1,0 +1,50 @@
+[
+  {
+    "name": "0",
+    "Issue Open": 1,
+    "Issue Start": 2,
+    "Issue Completed": 24
+  },
+  {
+    "name": "Jan",
+    "Issue Open": 2,
+    "Issue Start": 3,
+    "Issue Completed": 24
+  },
+  {
+    "name": "Feb",
+    "Issue Open": 3,
+    "Issue Start": 3,
+    "Issue Completed": 21
+  },
+  {
+    "name": "Mar",
+    "Issue Open": 2,
+    "Issue Start": 3,
+    "Issue Completed": 22
+  },
+  {
+    "name": "Apr",
+    "Issue Open": 2,
+    "Issue Start": 3,
+    "Issue Completed": 20
+  },
+  {
+    "name": "May",
+    "Issue Open": 2,
+    "Issue Start": 4,
+    "Issue Completed": 21
+  },
+  {
+    "name": "June",
+    "Issue Open": 2,
+    "Issue Start": 3,
+    "Issue Completed": 25
+  },
+  {
+    "name": "Jul",
+    "Issue Open": 3,
+    "Issue Start": 4,
+    "Issue Completed": 21
+  }
+]
