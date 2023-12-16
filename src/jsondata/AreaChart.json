@@ -1,50 +1,50 @@
 [
   {
     "name": "0",
-    "Issue Open": 1,
-    "Issue Start": 2,
-    "Issue Completed": 24
+    "Issue Open": [16, 17],
+    "Issue Start": [15, 16],
+    "Issue Completed": [14, 15]
   },
   {
     "name": "Jan",
-    "Issue Open": 2,
-    "Issue Start": 3,
-    "Issue Completed": 24
+    "Issue Open": [16, 17],
+    "Issue Start": [15, 16],
+    "Issue Completed": [14, 15]
   },
   {
     "name": "Feb",
-    "Issue Open": 3,
-    "Issue Start": 3,
-    "Issue Completed": 21
+    "Issue Open": [17, 18],
+    "Issue Start": [15, 17],
+    "Issue Completed": [13, 15]
   },
   {
     "name": "Mar",
-    "Issue Open": 2,
-    "Issue Start": 3,
-    "Issue Completed": 22
+    "Issue Open": [17, 18],
+    "Issue Start": [15, 17],
+    "Issue Completed": [13, 15]
   },
   {
     "name": "Apr",
-    "Issue Open": 2,
-    "Issue Start": 3,
-    "Issue Completed": 20
+    "Issue Open": [17, 19],
+    "Issue Start": [14, 17],
+    "Issue Completed": [12, 14]
   },
   {
     "name": "May",
-    "Issue Open": 2,
-    "Issue Start": 4,
-    "Issue Completed": 21
+    "Issue Open": [17, 19],
+    "Issue Start": [15, 17],
+    "Issue Completed": [12, 15]
   },
   {
     "name": "June",
-    "Issue Open": 2,
-    "Issue Start": 3,
-    "Issue Completed": 25
+    "Issue Open": [18, 20],
+    "Issue Start": [14, 18],
+    "Issue Completed": [11, 14]
   },
   {
     "name": "Jul",
-    "Issue Open": 3,
-    "Issue Start": 4,
-    "Issue Completed": 21
+    "Issue Open": [18, 21],
+    "Issue Start": [14, 18],
+    "Issue Completed": [11, 14]
   }
 ]

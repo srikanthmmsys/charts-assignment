@@ -18,14 +18,29 @@ function AreaChartCustomTooltip({ active, payload, label }) {
       <div className="tooltip-background">
         <h4>{getLabel(label)}</h4>
         <p className="d-flex justify-between">
-          Issue Open : <span>{payload[0].payload["Issue Open"]}D</span>
+          Issue Open :{" "}
+          <span>
+            {payload[0].payload["Issue Open"][1] -
+              payload[0].payload["Issue Open"][0]}
+            D
+          </span>
         </p>
         <p className="d-flex justify-between">
-          Issue Start : <span>{payload[1].payload["Issue Start"]}D</span>
+          Issue Start :{" "}
+          <span>
+            {payload[1].payload["Issue Start"][1] -
+              payload[1].payload["Issue Start"][0]}
+            D
+          </span>
         </p>
         <p className="d-flex justify-between">
           Issue Completed :
-          <span> {payload[2].payload["Issue Completed"]}D</span>
+          <span>
+            {" "}
+            {payload[2].payload["Issue Completed"][0] +
+              payload[2].payload["Issue Completed"][1]}
+            D
+          </span>
         </p>
       </div>
     );
