@@ -35,7 +35,7 @@ const SprintBarChart = () => {
         <YAxis>
           <Label value="Story Points(SP)" angle={-90} position="insideLeft" />
         </YAxis>
-        <Tooltip content={<BarChartCustomTooltip />} />
+        <Tooltip content={<BarChartCustomTooltip />} cursor={false} />
         <Legend iconType="circle" position="bottom" />
         <Bar type="" dataKey="SP Added" stackId="a" fill="#8884d8" />
         <Bar dataKey="SP completed" stackId="a" fill="#82ca9d" />
