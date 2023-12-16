@@ -34,9 +34,24 @@ const StreamedAreaChart = () => {
         </YAxis>
         <Tooltip content={<AreaChartCustomTooltip />} />
         <Legend iconType="circle" position="bottom" align="center" />
-        <Area dataKey="Issue Open" stroke="#8884d8" fill="#8884d8" />
-        <Area dataKey="Issue Start" stroke="#82ca9d" fill="#82ca9d" />
-        <Area dataKey="Issue Completed" stroke="#ffc658" fill="#ffc658" />
+        <Area
+          dataKey="Issue Open"
+          stroke="#8884d8"
+          fill="#8884d8"
+          type="basis"
+        />
+        <Area
+          dataKey="Issue Start"
+          stroke="#82ca9d"
+          fill="#82ca9d"
+          type="basis"
+        />
+        <Area
+          dataKey="Issue Completed"
+          stroke="#ffc658"
+          fill="#ffc658"
+          type="basis"
+        />
       </AreaChart>
     </div>
   );
